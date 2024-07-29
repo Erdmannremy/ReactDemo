@@ -1,22 +1,12 @@
 import React from "react";
 
-function Button () {
-   function handleClick() {
-alert('Vous avez cliqué !');
-}
-} 
-
-{
-    return (
-       <button className="Button" onClick={handleClick}>
-          cliqué ici
+const Button = ({onClick}) => {
+   return (
+       <button className="Button" onClick={onClick}>
+          cliquer ici
         </button>
-       
-
-    );
+       );
 };
-
-
 
 
 
