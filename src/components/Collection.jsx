@@ -7,7 +7,7 @@ const Collection = () => {
 return (
     <div className="collection">
     <Photo 
-    img="https://st2.depositphotos.com/thumbs/1003723/image/5625/56251673/api_thumb_450.jpg?forcejpeg=true" 
+    img="https://st.depositphotos.com/thumbs/1003723/image/2913/29131335/api_thumb_450.jpg?forcejpeg=true" 
     title="voyage"
     caption="Mon Départ"
     />

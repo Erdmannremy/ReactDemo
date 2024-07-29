@@ -9,12 +9,7 @@ return (
       <h3 className="photo_title">{title}</h3>
       <p className="photo_caption">{caption}</p>
   </div>
-
-    
-        
-
-     );
-    
+  );
 };
 
 export default Photo;
