@@ -19,26 +19,36 @@ return (
     <Photo 
     img="https://st.depositphotos.com/thumbs/1102719/image/4453/44532821/api_thumb_450.jpg?forcejpeg=true"
     title="voyage"
-    caption="Arrivé à destination Au Bout Du Monde"   
+    caption="On en profite pour faire une petite sieste."   
     />
       <Photo 
-    img="https://st.depositphotos.com/thumbs/1102719/image/4453/44532821/api_thumb_450.jpg?forcejpeg=true"
+    img="https://st2.depositphotos.com/thumbs/1252160/image/7133/71338357/api_thumb_450.jpg?forcejpeg=true"
     title="voyage"
-    caption="Arrivé à destination Au Bout Du Monde"   
+    caption="Et Quelque heures plus tard, Arrivé à destination Au Bout Du Monde."   
     />
     <Photo 
-    img="https://st.depositphotos.com/thumbs/1102719/image/4453/44532821/api_thumb_450.jpg?forcejpeg=true"
+    img="https://images.assetsdelivery.com/compings_v2/sergeyback/sergeyback2401/sergeyback240153791.jpg"
     title="voyage"
-    caption="Arrivé à destination Au Bout Du Monde"   
+    caption="Me Voilà enfin, Freedom"   
     />
     <Photo 
-    img="https://st.depositphotos.com/thumbs/1102719/image/4453/44532821/api_thumb_450.jpg?forcejpeg=true"
+    img="https://images.assetsdelivery.com/compings_v2/dron44/dron442401/dron44240100776.jpg"
     title="voyage"
     caption="Arrivé à destination Au Bout Du Monde"   
     />  
-        
-        </div>
-);
+        <Photo 
+    img="https://images.assetsdelivery.com/compings_v2/dron44/dron442401/dron44240100776.jpg"
+    title="voyage"
+    caption="Arrivé à destination Au Bout Du Monde"   
+    />  
+        <Photo 
+    img="https://images.assetsdelivery.com/compings_v2/dron44/dron442401/dron44240100776.jpg"
+    title="voyage"
+    caption="Arrivé à destination Au Bout Du Monde"   
+    />  </div>
+
+ );
+
 };
 
 export default Collection;
