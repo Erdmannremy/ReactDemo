@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "./Photo";
+import Button from "./Button";
 
 
 
@@ -11,6 +12,7 @@ return (
     title="voyage"
     caption="Mon Départ"
     />
+    <Button/>
     <Photo 
     img="https://st.depositphotos.com/thumbs/2890953/image/4275/42751141/api_thumb_450.jpg?forcejpeg=true"
     title="Voyage"
