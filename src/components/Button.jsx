@@ -8,7 +8,7 @@ function Button () {
 
    return (
       <div>
-       <button onClick={handleClick}>
+       <button className="Button" onClick={handleClick}>
           Cliquer ici
         </button>
       </div>

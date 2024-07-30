@@ -1,7 +1,7 @@
 import React from "react";
 import Photo from "./Photo";
 import Button from "./Button";
-import BarreAcceuil from "./BarreAcceuil";
+
 
 
 
@@ -14,7 +14,7 @@ return (
     title="voyage"
     caption="Mon Départ"
     />
-    <Button>({onclick})</Button>
+    <Button>{onclick}</Button>
     <Photo 
     img="https://st.depositphotos.com/thumbs/2890953/image/4275/42751141/api_thumb_450.jpg?forcejpeg=true"
     title="Voyage"
