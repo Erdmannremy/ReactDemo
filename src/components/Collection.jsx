@@ -1,11 +1,13 @@
 import React from "react";
 import Photo from "./Photo";
 import Button from "./Button";
+import BarreAcceuil from "./BarreAcceuil";
 
 
 
 const Collection = () => {
 return (
+    
     <div className="collection">
     <Photo 
     img="https://st.depositphotos.com/thumbs/1003723/image/2913/29131335/api_thumb_450.jpg?forcejpeg=true" 
