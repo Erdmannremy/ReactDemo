@@ -11,6 +11,13 @@ function Button () {
        <button className="Button" onClick={handleClick}>
           Cliquer ici
         </button>
+       
+       <Button className="NavbarHome">
+         
+       </Button>
+        
+
+
       </div>
    
    
