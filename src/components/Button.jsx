@@ -12,9 +12,7 @@ function Button () {
           Cliquer ici
         </button>
        
-       <Button className="NavbarHome">
-         
-       </Button>
+       
         
 
 
