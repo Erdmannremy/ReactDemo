@@ -11,7 +11,7 @@ return (
     
     <div className="collection">
     <Photo 
-    img="https://st.depositphotos.com/thumbs/1003723/image/2913/29131335/api_thumb_450.jpg?forcejpeg=true" 
+    img="https://assets.codepen.io/3685267/timed-cards-3.jpg" 
     title="voyage"
     caption="Mon Départ"
     />

@@ -5,7 +5,7 @@ return (
     <footer>
      <hr></hr>
      <p>
-     <h3>L'Aventure n'est jamais finie, la suite dans un nouvel épisode.</h3>
+     <h3>Comme l'Aventure n'est jamais finie, la suite dans un nouvel épisode.</h3>
      
      </p>
      <br/>
