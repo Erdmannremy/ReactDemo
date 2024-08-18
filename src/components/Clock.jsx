@@ -12,9 +12,11 @@ const Clock = () => {
   }, []);
 
   return (
-    <div>
-      <h1>{time.toLocaleTimeString()}</h1>
+    <div className='clock-container' >
+      <h1 className='clock-time' >{time.toLocaleTimeString()}</h1>
     </div>
+  
+
   );
 };
 

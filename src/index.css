@@ -57,9 +57,27 @@ justify-content: center;
 
 }
 
-NavbarHome {
+/* index.css */
+.clock-container {
+  display: flex;
   justify-content: center;
-
+  align-items: center;
+  height: 100vh; /* S'assure que l'horloge est centrée verticalement */
+  background-color: #282c34;
 }
+
+.clock-time {
+  font-size: 48px;
+  color: #61dafb;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+    
+
+  
+
+
+
 
 
