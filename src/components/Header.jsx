@@ -1,4 +1,7 @@
+
 import React from "react";
+import Clock from "./Clock";
+
 
 
 
@@ -10,12 +13,8 @@ return (
         <hr></hr>
         <h1>Mon Premier Site React Voyage</h1>
         <hr></hr>
-        <select>
-         <option value="Photo">Photo</option>
-         <option value="Fruit">Pomme</option>
-         <option value="Fruit">Poire</option>
-         <option value="Fruit">Fraise</option>
-        </select>
+        <Clock>{time}</Clock>
+        
     </header>
 );
 };
