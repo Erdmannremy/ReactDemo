@@ -6,10 +6,14 @@ import Button from "./Button";
 
 
 
+
+
 const Collection = () => {
 return (
     
+
     <div className="collection">
+        
     <Photo 
     img="https://assets.codepen.io/3685267/timed-cards-3.jpg" 
     title="voyage"
@@ -61,8 +65,10 @@ return (
     caption="Arrivé à destination Au Bout Du Monde"   
     />  
     <Button>{onclick}</Button>
-    </div>
 
+    
+
+    </div>
  );
 
 };
