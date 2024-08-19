@@ -3,6 +3,7 @@
 import React from "react";
 import Collection from "./components/Collection";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
     <div>
       <Header/>
       <Collection/>
+      <Footer/>
       
       {/* <Router>
         <nav>
