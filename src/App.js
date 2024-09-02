@@ -1,44 +1,29 @@
 
 
 import React from "react";
-import Collection from "./components/Collection";
+//import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Collection from "./components/Collection";
+//import BarreNavhome from "./components/BarreNavhome";
+
+//import Header from "./components/Header";
+//import Footer from "./components/Footer";
+
 
 
 
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Collection/>
-      <Footer/>
-      
-      {/* <Router>
-        <nav>
-          <ul>
-            <li>
-               <Link to="/Home">Home</Link> 
-            </li>
-            <li>
-              <Link to="/Collection">Page principale</Link> 
-            </li>
-          </ul>
-        </nav>
-        
-        
-       <Routes>
-        <Route path="/Home"element={<Home/>}/>   
-        <Route path="/Collection" element={<Collection/>}/>
-        </Routes>    
-       </Router> */}
-      
-
-     </div>
-
-            
-  
+    
+     <div className="App">
+         <Header/>
+            <Collection/>
+         <Footer/>
+      </div>
+         
+       
      
   );
 };

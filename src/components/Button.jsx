@@ -1,15 +1,21 @@
 import React from "react";
+import { useState } from "react";
+
+
 
 function Button () {
+
+   const [count,setCount]= useState(0);
+
    function handleClick() {
-      alert('vous avez cliqué !');
+      setCount(count + 1);
 
 }
 
    return (
       <div>
        <button className="Button" onClick={handleClick}>
-          Cliquer ici
+          Cliquer {count} fois
         </button>
        
        
